@@ -16,7 +16,7 @@ body{
 
 .blue_text{
   position: relative;
-  z-index: 1;
+  z-index: -1;
   color: #00cccc;
   font-family: serif-gothic;
   font-size: 5rem;
