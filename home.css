@@ -15,7 +15,7 @@ body{
 
 
 .blue_text{
-  position: absolute;
+  position: relative;
   z-index: 1;
   color: #00cccc;
   font-family: serif-gothic;
@@ -145,13 +145,15 @@ p{
   }
   85%{
     opacity: 1;
-    }
-    97%{
+      }
+    90%{
       opacity: 1;
       transform: rotateX(21deg) translate3d(0, -150rem, 0);
-  }
-  99%{
+    }
+  95%{
     opacity: 1;
+    transform: rotateX(21deg)
+      translate3d(0, -175rem, 0);
   }
   100%{
     transform: rotateX(21deg) translate3d(0, -200rem, 0);
