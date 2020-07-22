@@ -14,7 +14,7 @@ body{
 }
 
 .blue_text{
-  position: relative;
+  position: absolute;
   z-index: 1;
   height: 50%;
   color: #00cccc;
