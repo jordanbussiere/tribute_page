@@ -13,21 +13,19 @@ body{
   overflow: hidden;
 }
 
+
 .blue_text{
   position: absolute;
   z-index: 1;
-  height: 50%;
   color: #00cccc;
   font-family: serif-gothic;
   font-size: 5rem;
-  width: 75%;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 30px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  align-self: center;
+  text-align: center;
+  height: 100%;
   animation-name: fadein;
   animation-duration: 4s; 
   animation-fill-mode: forwards;
