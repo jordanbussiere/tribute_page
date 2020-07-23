@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  max-width: 100%;
 }
 
 body{
@@ -166,6 +167,7 @@ ul li a:hover{
   position: absolute;
   z-index: -1;
   padding: 20px;
+  max-width: 100%;
 }
 
 .image{
@@ -174,6 +176,7 @@ ul li a:hover{
   justify-content: center;
   align-items: center;
   align-self: center;
+  max-width: 100%;
 }
 
 .img {
