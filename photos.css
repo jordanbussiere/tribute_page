@@ -190,6 +190,7 @@ ul li a:hover{
   z-index: -1;
   border: solid;
   color: whitesmoke;
+  max-width: 100%;
 }
 
 .overlay{
