@@ -162,7 +162,8 @@ ul li a:hover{
   flex-wrap: wrap;
   align-self: center;
   justify-content: center;
-  align-items: center;  position: absolute;
+  align-items: center;
+  position: absolute;
   z-index: -1;
   padding: 20px;
 }
@@ -175,11 +176,9 @@ ul li a:hover{
   align-self: center;
 }
 
-
-.img{
+.img {
   display: flex;
-  max-height: 50vh;
-  max-width: 50vw;
+  height: 50vh;
   flex-wrap: wrap;
  justify-content: center;
   justify-content: space-evenly;
@@ -192,7 +191,6 @@ ul li a:hover{
   border: solid;
   color: whitesmoke;
 }
-
 
 .overlay{
   position: relative;
