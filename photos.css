@@ -196,6 +196,11 @@ ul li a:hover{
   max-width: 100%;
 }
 
+/*added to pass freecodecamp tests*/
+img{
+  max-width: 100%;
+}
+
 .overlay{
   position: relative;
   width: 100%;
