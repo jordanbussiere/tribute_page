@@ -192,10 +192,8 @@ ul li a:hover{
   color: whitesmoke;
 }
 
-/* added to pass freecodecamp tests*/
-#image{
-  max-width: 100%;
-}
+img{
+  max-width: 612px;}
 
 .overlay{
   position: relative;
