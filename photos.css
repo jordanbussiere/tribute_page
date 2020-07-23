@@ -193,6 +193,7 @@ ul li a:hover{
 }
 
 img{
+  display: block;
   max-width: 612px;}
 
 .overlay{
