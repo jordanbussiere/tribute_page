@@ -243,12 +243,12 @@ a{
   text-decoration: none;
 }
 
-#footer{
+#tribute-link{
   border: solid;
   border-radius: 20px;
 }
 
-#footer:hover{
+#tribute-link:hover{
     box-shadow: 
     0 0 5px red,
     0 0 25px red,
