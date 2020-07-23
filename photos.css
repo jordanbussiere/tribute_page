@@ -175,9 +175,6 @@ ul li a:hover{
   align-self: center;
 }
 
-img #image{
-  max-width: 100%;
-}
 
 .img{
   display: flex;
