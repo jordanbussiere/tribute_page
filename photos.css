@@ -177,7 +177,7 @@ ul li a:hover{
 
 .img {
   display: flex;
-  height: 50vh;
+  max-height: 50vh;
   flex-wrap: wrap;
  justify-content: center;
   justify-content: space-evenly;
@@ -191,17 +191,6 @@ ul li a:hover{
   color: whitesmoke;
 }
 
-/*added to pass freecode tests*/
-#image .img img{
-  display: flex;
-  flex-wrap: wrap;
- justify-content: center;
-  justify-content: space-evenly;
-  justify-content: space-around;
-  align-items: center;
-  align-self: center;height: 50vh;
-max-width: 50vw;
-}
 
 .overlay{
   position: relative;
