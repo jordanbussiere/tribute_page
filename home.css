@@ -340,13 +340,11 @@ ul li a:hover{
   font-family: serif-gothic;
   color: #00cccc;
   height: 100px;
-  display: flex;
-  text-align: center;
   position: absolute;
   z-index: -1;
-  display: flex;
-  justify-content: center;
   font-size: 6rem;
+  text-align: center;
+  top: 50%;
 }
 
 .end-animation{
