@@ -48,7 +48,7 @@ position: relative;
 
 .menubox:hover{
   position: absolute;
-  top: 35px;
+  top: 15px;
   right: 10px;
   width: 300px;
   height: 200px;
@@ -200,6 +200,7 @@ img{
 .overlay{
   height: 403px;
   width: 268px;
+  max-width: 100%;
   padding: 0;
   position: absolute;
   top: 20px;
@@ -263,4 +264,70 @@ a{
     0 0 50px red,
     0 0 100px red;
   background-color: red;
+}
+
+
+
+@media (max-width: 769px){
+  #tribute-link{
+    font-size: 10px;
+  }
+  #tribute-info{
+    text-align: center;
+  }
+    .starwars1{
+    display: flex;
+    flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      align-self: center;
+  }
+  .starwars2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+  }
+  .indianajones{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+  }
+}
+
+
+}
+
+@media (max-width: 320px){
+  #tribute-info{
+    font-family: arial;
+    font-size: small;
+  }
+  footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #tribute-link{
+    border: none;
+  }
+  .starwars1{
+    display: flex;
+    flex-direction: column;
+  }
+  .starwars2{
+    display: flex;
+    flex-direction: column;
+  }
+  .indianajones{
+    display: flex;
+    flex-direction: column;
+  }
+  .overlay{
+    display: none;
+  }
 }
