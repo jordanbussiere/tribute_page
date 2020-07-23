@@ -15,17 +15,17 @@ body{
 
 
 .blue_text{
-  position: relative;
+  position: absolute;
   z-index: -1;
   color: #00cccc;
   font-family: serif-gothic;
   font-size: 5rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-self: center;
+  height: 250px;
+  width: 1050px;
   text-align: center;
-  height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%); 
   animation-name: fadein;
   animation-duration: 4s; 
   animation-fill-mode: forwards;
