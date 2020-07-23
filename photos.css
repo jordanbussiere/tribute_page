@@ -162,8 +162,7 @@ ul li a:hover{
   flex-wrap: wrap;
   align-self: center;
   justify-content: center;
-  align-items: center;
-  position: absolute;
+  align-items: center;  position: absolute;
   z-index: -1;
   padding: 20px;
 }
@@ -177,20 +176,12 @@ ul li a:hover{
 }
 
 .img {
-  display: flex;
-  height: 50vh;
-  flex-wrap: wrap;
- justify-content: center;
-  justify-content: space-evenly;
-  justify-content: space-around;
-  align-items: center;
-  align-self: center;
+  display: block;
   border-radius: 30px;
   opacity: 85%;
   z-index: -1;
   border: solid;
   color: whitesmoke;
-  display: block;
 }
 
 img{
