@@ -172,6 +172,7 @@ p{
   display: flexbox;
   justify-content: center;
   align-items: center;
+  z-index: 2;
 }
 
 .navburger1{
@@ -219,7 +220,7 @@ p{
   font-family: monospace;
   text-transform: uppercase;
   opacity: 100%;
-  z-index: 2;
+  z-index: 100;
 }
 
 ul{
