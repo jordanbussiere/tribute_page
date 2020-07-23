@@ -176,7 +176,14 @@ ul li a:hover{
 }
 
 .img {
-  display: block;
+  display: flex;
+  height: 50vh;
+  flex-wrap: wrap;
+ justify-content: center;
+  justify-content: space-evenly;
+  justify-content: space-around;
+  align-items: center;
+  align-self: center;
   border-radius: 30px;
   opacity: 85%;
   z-index: -1;
@@ -184,9 +191,10 @@ ul li a:hover{
   color: whitesmoke;
 }
 
-img{
-  display: block;
-  max-width: 612px;}
+/*added to pass freecode tests*/
+#image .img img{
+  max-width: 612px;
+max-width: 100%;}
 
 .overlay{
   position: relative;
