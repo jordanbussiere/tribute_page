@@ -1,62 +1,161 @@
 <!DOCTYPE html>
-<html>
+<html lang=en>
 <head>
-<link href='https://fonts.googleapis.com/css?family=Londrina Outline' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Londrina Outline' rel="stylesheet">
+<link href="films.css" rel="stylesheet">
 <style>
 body {
     font-family: 'Londrina Outline';font-size: 22px;
 }
 </style>
-</head>
-
-<body>
-<div class="blue_text">
-  A long time ago in a galaxy not so far away...
-  </div>  
-  
-  <div class="title">
-    <h1 id="title"> George<br>Lucas</h1>
-       </div>
-   <div class="container">
-   <div class="main">
-     <div class="headings">
-   <h2>Episode IV <br> A TRIBUTE</h2>
-     </div>
-
-   <p id="tribute-info">George Lucas is an American director, writer, and producer most famous for his creation of the Star Wars film franchise. Although his first film, "THX 1138" was considered a flop, he went on to achieve massive success in the film industry. 
-     </p>
-     <br>
-     <p>
-     The first Star Wars movie, A New Hope, was released in 1977 and quickly became a blockbuster hit. Audiences were impressed with the complex world Lucas created, as well as the movie's visual effects that were ahead of its time.
-     </p>
-     <br>
-     <p>
-     Lucas went on to create the Indiana Jones franchise, which also reached high levels of success. Besides filmmaking, Lucas is passionate about improving education through his organization, The George Lucas Educational Foundation.
-   </p>
-   </div>
-</div>
- 
+<meta charset="utf-8">
+    <meta name="viewport" 
+          content="width=device-width, initial scale=1, maximum scale=1, user-scalable=no">
+    <meta name="keywords" 
+          content="George Lucas Tribute">
+    <meta name="description" 
+          content="This is a tribute page for George Lucas created for a FreeCodeCamp project">
+    </meta> 
+    <title="George Lucas Tribute Films Page"></title>
+  </head>
+   
+<body id="main"><!--id added to pass freecodecamp test--> <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    
+ <header class="container">
   <div class="navbox">
-  <div class=navburger1> <div class="navburger2"> <div class="navburger3"></div></div></div>
+    <div class=navburger1>
+    <div class="navburger2"> 
+    <div class="navburger3"></div></div></div>
   <nav class=menubox>
       <ul>
-        <li><a href="#">Photos</a></li>
-        <li><a href="#">Films</a></li>
-        <li><a href="#">Resources</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="photos.html">Photos</a></li>
+        <li><a href="resources.html">Resources</a></li>
       </ul>
-      </nav>
+   </nav>
   </div>
-  
-  <div class="end-animation">
-    <div class="arrow">
-    <div class="arrowbase">
-    </div>
-      <div class="arrowhead">
-    <div class="arrowhead1">
-    </div>
-      <div class="arrowhead2">
+   
+   <div class="title">
+     <h1 id="title">Films</h1> <!--id added to pass freecodecamp test-->
+     <h2 id="tribute-info"> George Lucas is best known for the following films:</h2>
+   </div>
+
+  </header>
+    
+ <div class="films-div">
+  <div class="starwars1" id="img-div"> <!--id added to pass freecodecamp test-->
+    <a class="films" href="https://www.youtube.com/watch?v=nywPf1p-BBY" target="_blank">
+      <img src="https://is5-ssl.mzstatic.com/image/thumb/Video113/v4/58/7f/97/587f97b3-1919-11f2-43c8-bbe89e68f3fc/pr_source.lsr/268x0w.jpg"
+            alt="This is a photo of Star Wars Episode IV" id="image"> <!--id added to pass freecodecamp test-->
+        <div class= "overlay">
+          <div class="caption" id="img-caption"> <!--id added to pass freecodecamp test-->
+            <p> Click to see trailer </p>
+          </div>
+       </div>
+     </a>
+            <a class="films" href="https://www.youtube.com/watch?v=JNwNXF9Y6kY" target="_blank">
+               <img src="https://is2-ssl.mzstatic.com/image/thumb/Video123/v4/01/3a/f1/013af151-fe2a-df00-f8cf-1f4603cbe52f/pr_source.lsr/268x0w.jpg"
+                    alt="This is a photo of Star Wars Episode V">
+              <div class= "overlay">
+          <div class="caption">
+            <p> Click to see trailer </p>
+             </div>
         </div>
+      </a>
+            <a class="films" href="https://www.youtube.com/watch?v=5UfA_aKBGMc" target="_blank">
+              <img src="https://is3-ssl.mzstatic.com/image/thumb/Video123/v4/9f/f9/e8/9ff9e804-f7f5-2a01-54a8-c476a5a884fa/pr_source.lsr/268x0w.jpg"
+                   alt="This is a photo of Star Wars Episode VI">
+                <div class= "overlay">
+                 <div class="caption">
+                  <p> Click to see trailer </p>
+                 </div>
+               </div>
+           </a>
+     </div>
+      
+      <br>
+      
+    <div class="starwars2">
+      <a class="films" href="https://www.youtube.com/watch?v=bD7bpG-zDJQ" target="_blank">
+        <img src="https://is5-ssl.mzstatic.com/image/thumb/Video123/v4/18/98/ce/1898cea4-56a5-0542-c115-f1057ed45fea/pr_source.lsr/268x0w.jpg"
+             alt="This is a photo of Star Wars Episode 1">
+               <div class= "overlay">
+                 <div class="caption">
+                   <p> Click to see trailer </p>
+                 </div>
+               </div>
+        </a>
+        
+        <a class="films" href="https://www.youtube.com/watch?v=gYbW1F_c9eM" target="_blank">
+         <img src="https://is3-ssl.mzstatic.com/image/thumb/Video113/v4/22/48/9f/22489f6e-c7a1-af0f-0767-969d07c63758/pr_source.lsr/268x0w.jpg"
+               alt="This is a photo of Star Wars Episode 2">
+          <div class= "overlay">
+           <div class="caption">
+            <p> Click to see trailer </p>
+           </div>
+          </div>
+        </a>
+        
+        <a class="films" href="https://www.youtube.com/watch?v=5UnjrG_N8hU" target="_blank">
+         <img src="https://is2-ssl.mzstatic.com/image/thumb/Video113/v4/f6/ed/2e/f6ed2e90-8c9a-0a71-d87b-3e502c999ce7/pr_source.lsr/268x0w.jpg"
+              alt="This is a photo of Star Wars Episode 3">
+               <div class= "overlay">
+                <div class="caption">
+                 <p> Click to see trailer </p>
+                </div>
+               </div>
+        </a>
+          
       </div>
-    </div>
-       <p class="text">Explore to learn more!</p>
-  </div>
+
+      </br>
+      
+    <div class="indianajones">
+     <a class="films" href="https://www.youtube.com/watch?v=XkkzKHCx154" target="_blank">
+         <img src="https://is5-ssl.mzstatic.com/image/thumb/Video5/v4/04/b1/08/04b10837-60c1-0912-8751-16a8dde997ee/01376EU007.jpg/268x0w.jpg"
+              alt="This is a photo of Raiders of the Lost Ark">
+          <div class= "overlay">
+           <div class="caption">
+            <p> Click to see trailer </p>
+           </div>
+         </div>
+     </a>
+     
+      <a class="films" href="https://www.youtube.com/watch?v=HOwWfns4qqw" target="_blank">
+       <img src="https://is4-ssl.mzstatic.com/image/thumb/Video1/v4/e0/1f/9f/e01f9f80-4161-5e4f-55c5-c81e87fc7095/01643EU007.jpg/268x0w.jpg"
+            alt="This is a photo of Indiana Jones and the Temple of Doom">
+        <div class= "overlay">
+         <div class="caption">
+          <p> Click to see trailer </p>
+         </div>
+        </div>
+      </a>
+      
+      <a class="films" href="https://www.youtube.com/watch?v=sagmdpkWUqc" target="_blank">
+       <img src="https://is1-ssl.mzstatic.com/image/thumb/Video/v4/4f/82/02/4f8202d9-9624-d3e7-017f-deaf2a47a4dc/pr_source.lsr/268x0w.png"
+            alt="This is a photo of Indiana Jones and the Last Crusade">
+        <div class= "overlay">
+         <div class="caption">
+          <p> Click to see trailer </p>
+         </div>
+        </div>
+     </a>
+     
+      <a class="films" href="https://www.youtube.com/watch?v=WAdJf4wTC5Y" target="_blank">
+         <img src="https://is2-ssl.mzstatic.com/image/thumb/Video49/v4/cb/d6/7b/cbd67b5c-7fec-8ca4-e9b6-5ebc0eef4ad9/pr_source.lsr/268x0w.png"
+              alt="This is a photo of Indiana Jones and the Kingdom of Crystal Skull">
+          <div class= "overlay">
+           <div class="caption">
+            <p> Click to see trailer </p>
+           </div>
+          </div>
+     </a>
+   </div>
+ </div>
+  
+  <footer>
+    <a id="tribute-link" href="https://en.wikipedia.org/wiki/George_Lucas_filmography" target="_blank">Click here to see all films</a>
+  </footer>
+  
+ </body>
+</html>
